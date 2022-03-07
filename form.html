@@ -1,80 +1,152 @@
+<link rel="stylesheet" href="css/styles.css">
 <h2>Stark internship</h2>
 <p>May all your dreams come true.</p>
 <hr size="3" noshade>
 <h3>Application form -:</h3>
 <form action="mailto:jainjain390@gmail.com">
-    <div>
-        <label for="name">First name:     </label>
-        <input type="text">
-    </div>
-    <div>
-        <label for="name">Middle name:    </label>
-        <input type="text">
-    </div>
-    <div>
-        <label for="name">Last name:      </label>
-        <input type="text">
-    </div>
-    <div>
-        <label for="name">Email address:  </label>
-        <input type="email">
-    </div>
-    <div>
-        <label for="name">Phone number:   </label>
-        <input type="number">
-        <label for="name">OTP: </label>
-        <input type="number">
-        <input type="submit" value="Verify">
-    </div>
-    <div>
-        <label for="name">D.O.B</label>
-        <input type="date">
-        <input type="submit" value="Verify">
-    </div>
-    <div>
-        <label for="name">CV</label>
-        <input type="file">
-    </div>
-    <div>
-        <label for="name">Username</label>
-        <input type="text">
-        <label for="name">Password</label>
-        <input type="password">
-    </div>
-    <p>You are available for the duration of</p>
-    <div>
-        <input type="radio" id="dur1" name="dur" value="1 month">
-        <label for="name">1 month</label>
-        <input type="radio" id="dur2" name="dur" value="3 month" checked>
-        <label for="name">3 month</label>
-        <input type="radio" id="dur3" name="dur" value="6 month">
-        <label for="name">6 month</label>
-    </div>
-    <div>
-        <fieldset>
-            <legend>Why I want this internship so bad?</legend>
-            <input type="radio" name="wh" value="st1">
-            <label for="name">Because I think I deserve it.</label>
-            <br>
-            <input type="radio" name="wh" value="st2">
-            <label for="name">Because I think I am better than those douches.</label>
-            <br>
-            <input type="radio" name="wh" value="st3">
-            <label for="name">Because I think I can change the persepective of the company.</label>
-        </fieldset>
-    </div>
-    <hr>
-    <div>
-        <input type="checkbox" name="ch1">
-        <label for="name">I hereby confirm that I have filled my details correctly</label>
-        <br>
-        <input type="checkbox" name="ch2">
-        <label for="name">I hereby confirm that I am ready for perjury charges if anything found incorrect</label>
-        <br>
-        <input type="checkbox" name="ch3">
-        <label for="name">I hereby agree to the terms and conditions</label>
-    </div>
-    <hr>
-    <input type="submit">
-    <input type="reset">
-</form>
+    <table>
+        <tr>
+            <div>
+                <td>
+                    <label for="name">First name:     </label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <div>
+                <td>
+                    <label for="name">Middle name:</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </div>
+        </tr>
+        <tr>
+            <td>
+                <label for="name">Last name:</label>
+            </td>
+            <td>
+                <input type="text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="name">Email address:  </label>
+            </td>
+            <td>
+                <input type="email">
+            </td>
+        </tr>
+        
+        <div>
+            <tr>
+                <td>
+                    <label for="name">Phone number:   </label>
+                </td>
+                <td>
+                    <input type="number">
+                </td>   
+                <td>
+                    <label for="name">OTP: </label>
+                </td>
+                <td>
+                    <input type="number">
+                </td>
+                <td>
+                    <input type="submit" value="Verify">
+                </td>
+            </tr>
+        </div>
+        <div>
+            <tr>
+                <td>
+                    <label for="name">D.O.B</label>
+                </td>
+                <td>
+                    <input type="date">
+                    <input type="submit" value="Verify">
+                </td>
+            </tr>
+        </div>
+        <tr>
+            <td>
+                <label for="name">CV</label>
+            </td>
+            <td>
+                <input type="file">
+            </td>
+        </tr>
+        
+        
+        <div>
+            <tr>
+                <td>
+                    <label for="name">Username</label>
+                </td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Password</label>
+                </td>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+        </div>
+        <tr>
+            <td><label for="name">You are available for the duration of</label>
+                <input type="radio" id="dur1" name="dur" value="1 month">
+                <label for="name">1 month</label>
+                <input type="radio" id="dur2" name="dur" value="3 month" checked>
+                <label for="name">3 month</label>
+                <input type="radio" id="dur3" name="dur" value="6 month">
+                <label for="name">6 month</label>
+            <td>
+            
+        </tr>
+        <div>
+            <fieldset>
+                <legend>Why I want this internship so bad?</legend>
+                <input type="radio" name="wh" value="st1">
+                <label for="name">Because I think I deserve it.</label>
+                <br>
+                <input type="radio" name="wh" value="st2">
+                <label for="name">Because I think I am better than those douches.</label>
+                <br>
+                <input type="radio" name="wh" value="st3">
+                <label for="name">Because I think I can change the persepective of the company.</label>
+            </fieldset>
+        </div>
+        <tr>
+            
+                <tr>
+                    <td>
+                        <input type="checkbox" name="ch1">
+                        <label for="name">I hereby confirm that I have filled my details correctly</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="ch2">
+                        <label for="name">I hereby confirm that I am ready for perjury charges if anything found incorrect</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="ch3">
+                        <label for="name">I hereby agree to the terms and conditions</label>
+                    </td>
+                </tr>
+                
+        </tr>
+    </table>
+        <input type="submit">
+        <input type="reset">
+    </form>
